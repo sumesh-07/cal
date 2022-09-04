@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"></script>
+    <script src="./node_modules/web3/dist/web3.min.js"></script>
+    <script src="./cal.js"></script>
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+</head>
+<body>
+
+<div class="main">
+    <div class="subMain">
+    <div class="input">
+    <input type="text" id="fir"><br>
+    <button class="input" onclick="first()">getFirstnum</button><br>
+    <input type="text" id="sec"><br>
+    <button class="input" onclick="second()">GetSecNum</button><br>
+    </div>
+
+
+
+<div class="btn">
+    <button class="calBtn" onclick="getaddition()">add</button>
+    <button class="calBtn" onclick="getsubtraction()">sub</button>
+    <button class="calBtn" onclick="getmul()">mul</button>
+    <button class="calBtn" onclick="getdiv()">div</button>
+</div>
+<div class="out">
+    
+    <h1 id="output"></h1>
+</div>
+</div>
+</div>
+</body>
+</html>

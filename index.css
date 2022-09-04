@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    width: 100%;
+    background: linear-gradient(to top,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),url(pic.jpg);
+    background-position: center;
+    background-size:cover;
+    
+}
+
+.subMain {
+    margin-top: 200vh;
+    margin-left: 600px;
+    height: 700px;
+    width: 500px;
+    border: 10px solid black;
+}
+
+#fir {
+    width: 240px;
+    height: 35px;
+    border-bottom: 1px #ff7200;
+    color:rgb(114, 112, 112);
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    
+}
+
+#sec {
+    width: 240px;
+    height: 35px;
+    border-bottom: 1px #ff7200;
+    color:rgb(114, 112, 112);
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    
+}
+
+.input {
+    width: 100px;
+    height: 40px;
+    color: #fff;
+    background: #ff7200;
+    border: 2px solid #ff7200;
+    margin-top: 13px;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.btn {
+    margin-top: 300px;
+    margin-left: 20px;
+    flex: content;
+    flex-direction: row;
+}
+
+.calBtn {
+    width: 100px;
+    height: 40px;
+    color: black;
+    background: white;
+    border: 2px solid gray;
+    transition: cubic-bezier(0.19, 1, 0.22, 1);
+    margin-top: 13px;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+
+}
+.calBtn:hover {
+    background-color: gray;
+}
+
+.out {
+    margin-top: 20px;
+    margin-left: 200px;
+    width: 200px;
+    height: 50px;
+    color: white;
+    transition: 3s;
+    font-family: 'Courier New', Courier, monospace;
+
+}
